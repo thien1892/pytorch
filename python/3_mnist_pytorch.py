@@ -12,6 +12,8 @@ import matplotlib.pyplot as plt
 batch_size = 128
 EPOCHS = 20
 learning_rate = 0.001
+input_size = 28*28
+num_classes = 10
 ###############
 
 ############## LOAD DATA ###########################
