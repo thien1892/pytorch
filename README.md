@@ -8,3 +8,6 @@ deep learning with pytorch
 ## 2. Model pytorch 101
 - Mnist (classifier)
 - Boston housing (regression)
+
+## 3. Train on 'cpu' or 'gpu'
+- Mnist on device
