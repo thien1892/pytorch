@@ -22,6 +22,7 @@ num_classes = 10
 
 dataset = MNIST(root='data/', download=True, transform=ToTensor())
 
+torch.manual_seed(43) # make split random same time
 val_size = 10000
 train_size = len(dataset) - val_size
 train_ds, val_ds = random_split(dataset, [train_size, val_size])

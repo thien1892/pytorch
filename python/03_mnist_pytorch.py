@@ -32,6 +32,7 @@ test_dataset = MNIST(root='data/',
 
 ############## SPLIT DATA ###########################
 # Split
+torch.manual_seed(43) # make split random same time
 train_ds, val_ds = random_split(dataset, [50000, 10000])
 len(train_ds), len(val_ds)
 # Load by batch

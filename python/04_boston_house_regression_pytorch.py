@@ -29,6 +29,7 @@ targets = dataframe[['medv']].values
 
 # Convert to PyTorch dataset
 dataset = TensorDataset(torch.tensor(inputs, dtype=torch.float32), torch.tensor(targets, dtype=torch.float32))
+torch.manual_seed(43) # make split random same time
 train_ds, val_ds = random_split(dataset, [406, 100])
 
 train_loader = DataLoader(train_ds, batch_size, shuffle=True)
