@@ -19,8 +19,11 @@ deep learning with pytorch
 - Load image from local foder
 - Nomalization, Augmentation
 - Resnet model
-- Learning rate schedule
+- Learning rate schedule [document pytorch](https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate)
 - Gradient clip
 - Weight decay (regularization)
 - Train on device cpu or gpu
 - Analyst error
+
+## 6. Tranfer learning
+- Fix analyst error compare with ##5
