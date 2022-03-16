@@ -27,3 +27,11 @@ deep learning with pytorch
 
 ## 6. Tranfer learning
 - Fix analyst error compare with ##5
+
+## 7. Use tensorboard
+- TensorBoard setup
+- Write image
+- Write graph model
+- Write a “Projector” to TensorBoard
+- Tracking model training with TensorBoard
+- Assessing trained models with TensorBoard
